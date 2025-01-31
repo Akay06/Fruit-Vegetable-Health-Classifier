@@ -1,0 +1,7 @@
+fastapi[all]
+uvicorn
+tensorflow
+pillow
+numpy
+pydantic
+ultralytics
