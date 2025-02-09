@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "FruitVegetableClassification.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "FruitVegetableClassification.py"
+    }
+  ]
+}
